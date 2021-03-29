@@ -48,7 +48,7 @@ public class AutoClickerController implements Initializable {
         autoclickerPane.setOnKeyPressed(eh -> {
             if (eh.getCode().equals(new KeyCodeCombination(KeyCode.S, KeyCombination.META_DOWN).getCode())) {
                 startClicking();
-                System.out.println("Started clicking...");
+//                System.out.println("Started clicking...");
             }
 
             if (eh.getCode().equals(new KeyCodeCombination(KeyCode.E, KeyCombination.META_DOWN).getCode())) {
